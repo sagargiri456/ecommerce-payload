@@ -117,10 +117,10 @@ const link: LinkType = ({ appearances, disableLabel = false, overrides = {} } = 
           },
         },
         {
-          name:'icon',
-          label:'Icon',
-          relationTo:'media',
-          type:'upload'
+          name: 'icon',
+          label: 'Icon',
+          relationTo: 'media',
+          type: 'upload',
         },
       ],
     })
