@@ -1,6 +1,8 @@
 import { webpackBundler } from '@payloadcms/bundler-webpack' // bundler-import
 import { mongooseAdapter } from '@payloadcms/db-mongodb' // database-adapter-import
-import { payloadCloud } from '@payloadcms/plugin-cloud'
+import { payloadCloud } from '@payloadcms/plugin-cloud' 
+import pluginCloud from '@payloadcms/plugin-cloud';
+
 import nestedDocs from '@payloadcms/plugin-nested-docs'
 import redirects from '@payloadcms/plugin-redirects'
 import seo from '@payloadcms/plugin-seo'
@@ -10,7 +12,6 @@ import { slateEditor } from '@payloadcms/richtext-slate' // editor-import
 import dotenv from 'dotenv'
 import path from 'path'
 import { buildConfig } from 'payload/config'
-
 import Categories from './collections/Categories'
 import { Media } from './collections/Media'
 import { Orders } from './collections/Orders'
